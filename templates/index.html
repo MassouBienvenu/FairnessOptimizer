@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FairnessOptimizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+        input[type="file"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        #result {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            white-space: pre-wrap;
+        }
+        .loading {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>FairnessOptimizer</h1>
+    <form id="optimizerForm">
+        <label for="dataFile">Upload CSV:</label>
+        <input type="file" id="dataFile" accept=".csv" required>
+        
+        <label for="sensitiveAttributes">Sensitive Attributes (comma-separated):</label>
+        <input type="text" id="sensitiveAttributes" required placeholder="e.g., gender,race,age">
+        
+        <label for="coefficient">Coefficient:</label>
+        <input type="number" id="coefficient" step="0.01" min="0" max="2" required placeholder="Enter a value between 0 and 2">
+        
+        <button type="submit">Optimize</button>
+    </form>
+    
+    <div id="loading" class="loading" style="display: none;">
+        <div class="spinner"></div>
+        <p>Optimizing... This may take a few minutes.</p>
+    </div>
+
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('optimizerForm').onsubmit = async (e) => {
+            e.preventDefault();
+            
+            const formData = new FormData();
+            const dataFile = document.getElementById('dataFile').files[0];
+            const sensitiveAttributes = document.getElementById('sensitiveAttributes').value.split(',').map(attr => attr.trim());
+            const coefficient = parseFloat(document.getElementById('coefficient').value);
+    
+            if (!dataFile) {
+                alert('Please select a CSV file.');
+                return;
+            }
+    
+            if (sensitiveAttributes.length === 0) {
+                alert('Please enter at least one sensitive attribute.');
+                return;
+            }
+    
+            if (isNaN(coefficient) || coefficient < 0 || coefficient > 2) {
+                alert('Please enter a valid coefficient between 0 and 2.');
+                return;
+            }
+    
+            const config = {
+                sensitive_attributes: sensitiveAttributes,
+                coefficient: coefficient
+            };
+    
+            formData.append('data', dataFile);
+            formData.append('config', JSON.stringify(config));
+            
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('result').innerText = '';
+    
+            try {
+                const response = await fetch('/optimize', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                if (response.redirected) {
+                    window.location.href = response.url;
+                } else {
+                    const result = await response.json();
+                    document.getElementById('result').innerText = JSON.stringify(result, null, 2);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('result').innerText = `Error: ${error.message}`;
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+            }
+        };
+    </script>
+</body>
+</html>

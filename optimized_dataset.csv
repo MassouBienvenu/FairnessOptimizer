@@ -1,0 +1,751 @@
+Age,Previouscompany,Religion,NumberOfKids,Region,InterviewScore
+23,Sobebra,Other,8,Alibori,10
+62,Moov,Buddhist,9,Littoral,>10
+41,Moov,Other,2,Collines,>10
+45,Moov,Buddhist,0,Littoral,10
+21,Sobebra,Other,8,Couffo,<10
+25,Moov,Muslim,1,Alibori,10
+39,Sobebra,Other,7,Collines,10
+56,MTN,Buddhist,9,Couffo,>10
+65,Other,Muslim,8,Atlantique,10
+49,Moov,Muslim,0,Atlantique,10
+30,MTN,Christian,6,Ouémé,<10
+56,MTN,Muslim,2,Plateau,>10
+30,Sobebra,Christian,4,Couffo,<10
+46,Sobebra,Other,0,Mono,<10
+68,Other,Christian,8,Ouémé,>10
+49,Other,Muslim,2,Atacora,>10
+36,MTN,Other,6,Collines,>10
+56,Other,Buddhist,7,Couffo,10
+51,Tunde Motors,Muslim,1,Mono,>10
+37,Sobebra,Muslim,3,Donga,>10
+62,Sobebra,Muslim,6,Alibori,10
+63,MTN,Buddhist,3,Littoral,>10
+47,Tunde Motors,Buddhist,5,Atlantique,<10
+31,Moov,Christian,0,Ouémé,10
+39,MTN,Muslim,10,Couffo,10
+53,Moov,Other,9,Collines,10
+61,Other,Muslim,4,Zou,>10
+30,Other,Buddhist,5,Donga,>10
+51,Moov,Muslim,8,Donga,<10
+64,Sobebra,Christian,10,Zou,<10
+24,MTN,Buddhist,2,Couffo,10
+25,Moov,Other,2,Donga,10
+65,Moov,Buddhist,7,Collines,10
+43,Moov,Christian,10,Couffo,<10
+59,Moov,Christian,2,Couffo,10
+58,Sobebra,Other,7,Atacora,<10
+34,Tunde Motors,Christian,7,Couffo,10
+51,Sobebra,Buddhist,4,Collines,<10
+54,Sobebra,Christian,3,Zou,10
+23,Moov,Other,8,Atlantique,<10
+44,Tunde Motors,Christian,9,Zou,>10
+20,Sobebra,Buddhist,3,Collines,10
+34,Other,Christian,2,Atacora,>10
+25,MTN,Christian,6,Mono,<10
+62,Other,Buddhist,4,Littoral,10
+37,Tunde Motors,Muslim,7,Atacora,<10
+31,Sobebra,Muslim,9,Couffo,10
+37,Other,Muslim,7,Plateau,10
+21,Sobebra,Muslim,6,Atlantique,10
+29,Moov,Buddhist,8,Atlantique,<10
+52,MTN,Christian,5,Zou,>10
+60,Other,Buddhist,7,Donga,>10
+60,Sobebra,Muslim,5,Alibori,10
+59,Sobebra,Muslim,2,Collines,<10
+46,MTN,Other,9,Zou,>10
+69,Moov,Muslim,2,Mono,>10
+27,Other,Buddhist,9,Atlantique,<10
+63,MTN,Christian,9,Plateau,10
+54,Sobebra,Buddhist,9,Atlantique,<10
+46,Sobebra,Buddhist,10,Alibori,>10
+62,Tunde Motors,Muslim,8,Alibori,>10
+49,Tunde Motors,Christian,9,Mono,>10
+49,MTN,Buddhist,6,Mono,<10
+60,MTN,Other,3,Plateau,<10
+53,Sobebra,Christian,5,Zou,>10
+46,MTN,Muslim,6,Atacora,10
+33,Other,Other,0,Atlantique,<10
+25,Tunde Motors,Other,2,Alibori,>10
+29,Sobebra,Muslim,8,Zou,>10
+30,MTN,Christian,10,Zou,<10
+51,Tunde Motors,Buddhist,7,Mono,>10
+41,Sobebra,Buddhist,1,Couffo,<10
+48,Tunde Motors,Christian,7,Atacora,>10
+52,Moov,Muslim,9,Atacora,10
+47,Moov,Muslim,8,Couffo,<10
+61,Moov,Muslim,6,Donga,10
+32,Tunde Motors,Muslim,6,Zou,>10
+26,Tunde Motors,Other,9,Mono,>10
+21,Other,Muslim,6,Couffo,>10
+32,Other,Christian,1,Littoral,<10
+29,Moov,Christian,10,Collines,10
+64,Other,Christian,2,Plateau,>10
+49,Tunde Motors,Other,6,Littoral,<10
+34,MTN,Christian,0,Alibori,<10
+46,Moov,Christian,1,Littoral,10
+51,Sobebra,Christian,6,Alibori,10
+31,Sobebra,Buddhist,4,Zou,<10
+59,MTN,Other,5,Atlantique,<10
+68,MTN,Buddhist,6,Ouémé,10
+33,Other,Other,9,Ouémé,<10
+39,Tunde Motors,Muslim,4,Collines,>10
+48,Moov,Other,5,Mono,>10
+33,MTN,Buddhist,0,Zou,>10
+51,MTN,Christian,4,Alibori,>10
+27,Tunde Motors,Other,10,Atlantique,10
+37,MTN,Other,5,Plateau,<10
+53,Other,Muslim,4,Ouémé,>10
+65,Tunde Motors,Other,7,Atacora,10
+68,Sobebra,Christian,9,Mono,>10
+40,Other,Buddhist,7,Atlantique,10
+24,Sobebra,Buddhist,2,Alibori,10
+54,Moov,Other,9,Atacora,10
+68,MTN,Buddhist,5,Collines,10
+46,Tunde Motors,Muslim,9,Atacora,<10
+64,MTN,Christian,9,Zou,<10
+64,MTN,Christian,8,Alibori,<10
+26,MTN,Christian,1,Collines,<10
+58,Sobebra,Buddhist,8,Plateau,>10
+53,Tunde Motors,Other,2,Collines,10
+35,Moov,Buddhist,3,Donga,>10
+62,MTN,Muslim,9,Mono,<10
+54,MTN,Christian,8,Atlantique,10
+38,MTN,Muslim,7,Collines,>10
+41,Tunde Motors,Muslim,4,Atlantique,10
+46,Other,Muslim,1,Collines,>10
+34,Moov,Christian,1,Donga,>10
+55,Sobebra,Christian,5,Collines,10
+36,MTN,Buddhist,2,Collines,>10
+69,Sobebra,Other,5,Ouémé,>10
+68,MTN,Muslim,3,Donga,10
+57,MTN,Muslim,1,Atlantique,>10
+22,Moov,Muslim,4,Couffo,10
+56,MTN,Christian,8,Alibori,<10
+41,MTN,Christian,5,Ouémé,>10
+21,Sobebra,Christian,9,Collines,>10
+35,Tunde Motors,Muslim,1,Atacora,<10
+54,Sobebra,Christian,8,Donga,>10
+20,Other,Other,2,Atacora,10
+62,Sobebra,Muslim,1,Atlantique,10
+39,Moov,Buddhist,8,Ouémé,10
+33,Sobebra,Other,9,Alibori,>10
+46,Sobebra,Christian,4,Alibori,>10
+35,Sobebra,Muslim,8,Plateau,>10
+36,MTN,Buddhist,4,Atlantique,10
+70,Sobebra,Christian,5,Atacora,<10
+59,Tunde Motors,Buddhist,3,Littoral,>10
+66,Sobebra,Buddhist,7,Plateau,<10
+37,Sobebra,Muslim,7,Zou,>10
+61,MTN,Muslim,8,Plateau,10
+47,Moov,Buddhist,1,Couffo,>10
+45,Other,Buddhist,1,Atlantique,10
+62,MTN,Muslim,5,Atlantique,>10
+60,Moov,Muslim,0,Ouémé,10
+54,Sobebra,Muslim,3,Plateau,<10
+68,Tunde Motors,Muslim,5,Zou,10
+28,Sobebra,Buddhist,4,Atacora,<10
+38,Tunde Motors,Other,8,Collines,<10
+44,Tunde Motors,Buddhist,7,Collines,10
+47,Moov,Other,7,Littoral,10
+42,MTN,Other,9,Atacora,<10
+67,Other,Other,1,Zou,>10
+23,Other,Muslim,10,Alibori,<10
+28,Moov,Muslim,6,Zou,>10
+26,Sobebra,Christian,9,Atacora,>10
+64,Moov,Christian,8,Mono,<10
+70,Sobebra,Christian,1,Couffo,>10
+58,Moov,Buddhist,8,Alibori,10
+26,Moov,Buddhist,5,Littoral,>10
+41,Moov,Muslim,0,Atacora,10
+23,Other,Christian,0,Couffo,10
+29,Sobebra,Other,9,Couffo,10
+31,Tunde Motors,Buddhist,2,Mono,>10
+62,Tunde Motors,Buddhist,5,Collines,<10
+55,Tunde Motors,Muslim,2,Couffo,>10
+35,Tunde Motors,Muslim,5,Littoral,>10
+46,MTN,Buddhist,9,Mono,>10
+48,Other,Other,6,Atacora,<10
+40,Sobebra,Buddhist,9,Littoral,>10
+35,Other,Other,7,Collines,>10
+58,Tunde Motors,Other,1,Atlantique,10
+63,Sobebra,Muslim,9,Donga,<10
+29,Moov,Buddhist,7,Plateau,>10
+24,Tunde Motors,Other,8,Mono,10
+37,Other,Other,7,Plateau,<10
+61,Tunde Motors,Buddhist,7,Littoral,>10
+58,Moov,Muslim,5,Collines,<10
+24,Tunde Motors,Muslim,6,Zou,10
+22,Moov,Christian,0,Atlantique,<10
+24,Tunde Motors,Buddhist,1,Collines,<10
+54,MTN,Buddhist,7,Ouémé,<10
+24,MTN,Buddhist,5,Atlantique,10
+37,Sobebra,Other,9,Alibori,10
+28,MTN,Buddhist,1,Littoral,>10
+65,MTN,Buddhist,9,Couffo,>10
+29,Moov,Other,9,Couffo,<10
+31,Sobebra,Buddhist,1,Plateau,>10
+68,Other,Christian,2,Atacora,<10
+47,Tunde Motors,Christian,6,Mono,10
+56,Sobebra,Buddhist,2,Plateau,<10
+42,Tunde Motors,Buddhist,8,Atacora,>10
+44,Moov,Christian,4,Mono,<10
+63,Other,Muslim,6,Plateau,>10
+36,MTN,Buddhist,4,Atlantique,<10
+39,Sobebra,Other,6,Ouémé,10
+63,Other,Christian,6,Plateau,<10
+37,Other,Buddhist,1,Couffo,<10
+39,MTN,Christian,3,Atlantique,10
+20,Other,Buddhist,6,Atlantique,<10
+62,Tunde Motors,Muslim,8,Ouémé,10
+45,MTN,Muslim,0,Donga,>10
+69,Tunde Motors,Other,1,Ouémé,10
+67,Moov,Christian,2,Collines,<10
+61,Sobebra,Other,3,Collines,>10
+26,Moov,Muslim,8,Plateau,<10
+65,Other,Muslim,5,Mono,10
+60,Moov,Christian,4,Mono,<10
+33,Other,Buddhist,4,Ouémé,10
+39,Sobebra,Muslim,1,Donga,10
+55,MTN,Muslim,3,Ouémé,<10
+26,Other,Muslim,9,Collines,10
+22,Other,Muslim,6,Donga,<10
+33,Tunde Motors,Muslim,9,Atacora,>10
+67,Moov,Christian,8,Alibori,>10
+59,Tunde Motors,Muslim,9,Zou,<10
+36,Sobebra,Other,2,Ouémé,10
+32,Moov,Buddhist,1,Plateau,>10
+44,Tunde Motors,Other,1,Mono,10
+54,Other,Christian,3,Ouémé,<10
+29,Other,Muslim,3,Atlantique,>10
+22,Other,Muslim,5,Alibori,10
+61,Other,Muslim,4,Collines,<10
+57,Other,Muslim,6,Atacora,>10
+48,Moov,Other,10,Mono,>10
+51,Sobebra,Muslim,4,Collines,10
+38,Sobebra,Buddhist,6,Littoral,<10
+67,Moov,Buddhist,9,Mono,<10
+33,Sobebra,Christian,8,Atacora,10
+43,Sobebra,Buddhist,6,Atlantique,>10
+56,Other,Other,7,Atlantique,<10
+61,Other,Muslim,2,Atacora,>10
+36,Moov,Buddhist,2,Ouémé,10
+37,Moov,Buddhist,7,Littoral,>10
+39,Tunde Motors,Other,6,Zou,>10
+50,Other,Christian,3,Atacora,>10
+35,Tunde Motors,Muslim,8,Zou,>10
+65,Moov,Muslim,6,Atacora,10
+41,Other,Christian,6,Littoral,>10
+66,MTN,Muslim,5,Ouémé,<10
+57,MTN,Muslim,6,Littoral,10
+68,MTN,Christian,8,Mono,10
+61,Moov,Other,10,Atacora,10
+63,Tunde Motors,Christian,6,Atacora,10
+23,MTN,Muslim,4,Atacora,>10
+34,Moov,Muslim,6,Donga,>10
+50,Other,Christian,10,Atacora,<10
+55,Sobebra,Buddhist,9,Littoral,<10
+42,Other,Other,5,Atacora,10
+42,Sobebra,Christian,7,Collines,>10
+39,Moov,Muslim,7,Collines,<10
+21,MTN,Muslim,8,Atacora,>10
+60,Moov,Buddhist,1,Atlantique,>10
+23,Sobebra,Buddhist,5,Collines,>10
+41,MTN,Other,1,Mono,<10
+61,Moov,Other,1,Littoral,10
+54,Tunde Motors,Buddhist,6,Plateau,<10
+30,MTN,Buddhist,6,Mono,10
+31,Sobebra,Muslim,5,Atlantique,10
+57,Tunde Motors,Other,4,Plateau,<10
+68,MTN,Other,7,Alibori,<10
+40,Sobebra,Christian,5,Mono,<10
+62,Other,Other,2,Ouémé,<10
+69,Other,Christian,7,Couffo,>10
+50,Sobebra,Buddhist,1,Donga,>10
+27,Tunde Motors,Buddhist,6,Plateau,10
+64,Moov,Buddhist,5,Plateau,10
+53,Other,Muslim,10,Littoral,>10
+65,MTN,Other,9,Ouémé,>10
+60,Tunde Motors,Other,3,Littoral,10
+61,Sobebra,Christian,3,Atlantique,<10
+27,Tunde Motors,Other,10,Atlantique,10
+33,Other,Buddhist,10,Mono,<10
+43,Sobebra,Muslim,2,Collines,>10
+43,Tunde Motors,Muslim,3,Mono,<10
+29,Other,Muslim,3,Plateau,<10
+33,Tunde Motors,Other,3,Atlantique,10
+58,Moov,Buddhist,3,Alibori,<10
+61,Moov,Other,1,Alibori,>10
+61,Sobebra,Muslim,5,Atacora,<10
+66,Tunde Motors,Other,5,Mono,<10
+59,Other,Christian,5,Alibori,>10
+37,Sobebra,Christian,2,Donga,<10
+56,Tunde Motors,Buddhist,5,Plateau,<10
+39,Other,Other,3,Donga,<10
+63,MTN,Other,5,Plateau,>10
+54,Other,Buddhist,1,Ouémé,>10
+24,Sobebra,Christian,10,Donga,<10
+23,Other,Other,7,Atlantique,>10
+44,Sobebra,Christian,5,Mono,>10
+60,MTN,Christian,8,Couffo,10
+25,Sobebra,Muslim,4,Donga,<10
+43,Tunde Motors,Buddhist,9,Ouémé,10
+38,Sobebra,Christian,4,Atacora,10
+46,MTN,Muslim,9,Mono,<10
+38,Other,Buddhist,3,Plateau,>10
+65,Other,Christian,8,Zou,>10
+45,Sobebra,Christian,7,Atacora,10
+44,Sobebra,Muslim,4,Ouémé,10
+30,Moov,Other,2,Alibori,>10
+51,Other,Christian,3,Atlantique,10
+29,Moov,Christian,8,Collines,<10
+27,Other,Buddhist,8,Mono,10
+51,Tunde Motors,Buddhist,9,Alibori,>10
+58,Sobebra,Muslim,10,Donga,>10
+30,Sobebra,Muslim,5,Zou,<10
+35,Tunde Motors,Buddhist,6,Mono,<10
+23,MTN,Muslim,7,Atacora,>10
+52,MTN,Buddhist,4,Littoral,10
+62,Sobebra,Buddhist,10,Donga,<10
+30,Sobebra,Christian,0,Atlantique,<10
+45,Sobebra,Christian,7,Collines,>10
+21,Tunde Motors,Christian,10,Zou,10
+34,Sobebra,Muslim,8,Littoral,10
+42,MTN,Buddhist,9,Atacora,<10
+24,MTN,Christian,1,Mono,10
+59,Tunde Motors,Other,9,Atlantique,<10
+54,Tunde Motors,Muslim,1,Alibori,>10
+37,MTN,Other,5,Plateau,10
+21,Other,Christian,2,Zou,>10
+23,Sobebra,Christian,6,Ouémé,10
+55,Tunde Motors,Muslim,0,Couffo,>10
+33,Other,Muslim,4,Couffo,10
+41,Tunde Motors,Christian,1,Ouémé,>10
+27,MTN,Christian,0,Littoral,>10
+62,Sobebra,Other,8,Atacora,>10
+60,Tunde Motors,Muslim,4,Couffo,<10
+60,Other,Muslim,8,Collines,<10
+70,Other,Other,3,Mono,10
+26,MTN,Buddhist,9,Donga,<10
+33,Sobebra,Buddhist,4,Plateau,>10
+33,Tunde Motors,Buddhist,5,Collines,<10
+27,Tunde Motors,Buddhist,6,Mono,<10
+66,Other,Other,4,Atacora,10
+30,Sobebra,Muslim,4,Plateau,>10
+25,Moov,Buddhist,3,Alibori,<10
+39,MTN,Other,0,Collines,<10
+48,Other,Buddhist,4,Collines,10
+21,Sobebra,Buddhist,8,Mono,10
+52,MTN,Christian,4,Atacora,10
+39,Tunde Motors,Muslim,1,Atacora,<10
+42,Other,Buddhist,7,Plateau,<10
+44,Other,Other,6,Atlantique,<10
+34,Tunde Motors,Muslim,0,Collines,>10
+56,Moov,Christian,7,Donga,<10
+34,Tunde Motors,Other,2,Collines,10
+31,Other,Muslim,5,Alibori,10
+35,Moov,Muslim,4,Donga,10
+58,Moov,Buddhist,9,Alibori,10
+34,MTN,Muslim,6,Donga,>10
+30,Moov,Buddhist,7,Ouémé,<10
+30,Sobebra,Muslim,9,Atlantique,>10
+24,MTN,Other,8,Atlantique,10
+26,Tunde Motors,Christian,4,Alibori,<10
+21,Sobebra,Other,5,Atacora,10
+30,Sobebra,Christian,2,Zou,>10
+70,MTN,Christian,8,Zou,>10
+31,Moov,Buddhist,4,Littoral,>10
+29,Tunde Motors,Muslim,5,Ouémé,>10
+58,Other,Other,7,Plateau,10
+65,MTN,Buddhist,7,Littoral,>10
+61,Moov,Christian,0,Littoral,<10
+36,Other,Other,1,Atlantique,>10
+51,Tunde Motors,Buddhist,0,Mono,<10
+49,Sobebra,Other,6,Mono,>10
+54,Other,Muslim,10,Atlantique,<10
+53,Tunde Motors,Muslim,1,Donga,10
+48,Tunde Motors,Other,7,Zou,<10
+37,MTN,Christian,1,Ouémé,10
+67,Moov,Other,5,Collines,<10
+66,Moov,Christian,7,Atlantique,<10
+64,Sobebra,Christian,8,Ouémé,<10
+40,MTN,Buddhist,8,Atacora,<10
+22,Moov,Other,6,Littoral,10
+39,MTN,Buddhist,8,Couffo,>10
+55,Tunde Motors,Buddhist,7,Donga,>10
+50,Tunde Motors,Muslim,9,Collines,<10
+33,Other,Buddhist,4,Collines,>10
+66,MTN,Other,10,Donga,>10
+36,Tunde Motors,Buddhist,7,Alibori,<10
+35,Other,Buddhist,5,Plateau,>10
+67,MTN,Muslim,7,Atlantique,>10
+20,Moov,Christian,7,Collines,10
+27,Sobebra,Muslim,4,Alibori,>10
+53,Moov,Muslim,2,Littoral,10
+53,Sobebra,Christian,3,Mono,>10
+66,Tunde Motors,Muslim,4,Ouémé,>10
+30,Tunde Motors,Christian,9,Plateau,>10
+29,Other,Muslim,8,Atacora,<10
+35,Moov,Christian,7,Donga,<10
+47,MTN,Buddhist,5,Donga,>10
+51,MTN,Muslim,9,Plateau,>10
+29,Tunde Motors,Other,2,Atacora,<10
+28,Moov,Buddhist,5,Donga,10
+62,Sobebra,Christian,4,Mono,<10
+46,Tunde Motors,Other,5,Littoral,10
+42,MTN,Buddhist,5,Alibori,>10
+60,Tunde Motors,Christian,6,Collines,10
+43,MTN,Other,1,Littoral,>10
+28,Other,Christian,6,Ouémé,10
+52,MTN,Muslim,4,Couffo,10
+46,Tunde Motors,Other,4,Atlantique,10
+43,Sobebra,Buddhist,2,Plateau,<10
+61,Tunde Motors,Muslim,0,Alibori,>10
+37,MTN,Other,3,Plateau,10
+61,Other,Buddhist,2,Mono,<10
+30,Other,Buddhist,2,Collines,<10
+57,Other,Christian,6,Zou,>10
+20,MTN,Muslim,9,Collines,10
+52,Tunde Motors,Buddhist,3,Couffo,10
+26,MTN,Other,9,Atlantique,<10
+51,Moov,Buddhist,2,Donga,>10
+42,Tunde Motors,Buddhist,4,Littoral,10
+39,MTN,Buddhist,6,Ouémé,10
+70,MTN,Other,4,Atlantique,10
+37,Tunde Motors,Muslim,9,Zou,10
+68,Other,Muslim,8,Littoral,10
+45,Other,Other,7,Donga,10
+62,Sobebra,Muslim,9,Atlantique,<10
+40,Other,Other,2,Littoral,10
+53,Tunde Motors,Christian,6,Plateau,10
+61,Moov,Other,1,Littoral,10
+50,Sobebra,Christian,5,Mono,>10
+21,MTN,Buddhist,5,Alibori,10
+65,Other,Muslim,6,Littoral,10
+45,Moov,Christian,7,Plateau,10
+46,Sobebra,Buddhist,4,Collines,>10
+60,Other,Buddhist,10,Atacora,<10
+47,Moov,Other,4,Mono,<10
+50,Moov,Muslim,1,Littoral,>10
+70,Other,Other,8,Zou,>10
+24,MTN,Other,9,Alibori,10
+56,Moov,Muslim,1,Mono,<10
+58,Other,Buddhist,1,Littoral,10
+24,MTN,Other,8,Ouémé,<10
+24,MTN,Muslim,10,Alibori,10
+49,Tunde Motors,Other,4,Collines,<10
+57,Tunde Motors,Christian,3,Alibori,>10
+25,Sobebra,Other,7,Atlantique,10
+58,MTN,Buddhist,2,Collines,>10
+67,Tunde Motors,Other,10,Atlantique,10
+31,Sobebra,Christian,4,Zou,10
+26,Moov,Christian,8,Littoral,10
+62,MTN,Christian,8,Alibori,>10
+66,Other,Other,1,Zou,>10
+32,Tunde Motors,Other,1,Atlantique,<10
+54,Moov,Other,4,Collines,>10
+57,Moov,Buddhist,1,Plateau,<10
+45,Sobebra,Christian,8,Donga,10
+65,Moov,Other,2,Ouémé,10
+67,MTN,Other,9,Littoral,>10
+60,Sobebra,Christian,6,Atlantique,>10
+20,Moov,Buddhist,5,Couffo,>10
+22,Tunde Motors,Christian,5,Plateau,10
+51,Moov,Buddhist,4,Plateau,>10
+69,Moov,Buddhist,1,Mono,10
+52,Moov,Christian,3,Atacora,>10
+31,Tunde Motors,Buddhist,3,Donga,<10
+55,Other,Buddhist,6,Alibori,10
+49,Moov,Other,3,Ouémé,>10
+22,Sobebra,Muslim,3,Couffo,>10
+37,Moov,Christian,1,Atlantique,>10
+56,Moov,Other,9,Ouémé,10
+21,Other,Muslim,6,Plateau,>10
+46,MTN,Muslim,6,Zou,>10
+26,Sobebra,Buddhist,8,Atacora,10
+37,Moov,Buddhist,2,Collines,10
+64,MTN,Other,3,Littoral,<10
+54,Other,Buddhist,10,Atacora,>10
+66,Moov,Christian,8,Mono,<10
+20,Tunde Motors,Buddhist,2,Plateau,>10
+35,Tunde Motors,Other,3,Atlantique,10
+23,Sobebra,Buddhist,5,Atlantique,>10
+21,MTN,Christian,8,Collines,>10
+67,Sobebra,Muslim,8,Atlantique,10
+68,Sobebra,Christian,6,Donga,<10
+66,Tunde Motors,Buddhist,9,Atacora,10
+54,Moov,Other,4,Alibori,>10
+27,Other,Muslim,3,Mono,>10
+60,Other,Christian,6,Collines,<10
+49,MTN,Buddhist,10,Alibori,10
+31,MTN,Other,6,Zou,10
+53,Other,Muslim,9,Littoral,10
+39,MTN,Christian,2,Alibori,>10
+21,Moov,Other,4,Plateau,<10
+33,Tunde Motors,Christian,7,Atacora,<10
+26,Other,Other,0,Collines,>10
+43,MTN,Muslim,8,Littoral,10
+69,Moov,Other,7,Zou,>10
+25,MTN,Other,7,Atacora,10
+66,Sobebra,Muslim,0,Atlantique,<10
+29,Moov,Other,4,Ouémé,<10
+57,Other,Other,10,Atacora,10
+39,Other,Muslim,4,Donga,<10
+26,Tunde Motors,Christian,2,Atlantique,>10
+29,Other,Christian,10,Plateau,>10
+44,Moov,Buddhist,10,Atacora,<10
+27,Sobebra,Buddhist,5,Collines,<10
+23,MTN,Buddhist,7,Plateau,<10
+40,Moov,Christian,9,Littoral,>10
+35,Moov,Buddhist,6,Atacora,<10
+43,Moov,Muslim,5,Zou,>10
+20,MTN,Other,3,Couffo,10
+34,Sobebra,Christian,3,Donga,<10
+62,Tunde Motors,Muslim,2,Atacora,<10
+70,Tunde Motors,Muslim,10,Collines,<10
+20,Moov,Muslim,8,Ouémé,<10
+26,MTN,Other,10,Collines,10
+70,Other,Other,7,Mono,10
+44,Sobebra,Muslim,4,Donga,10
+35,Other,Muslim,2,Zou,10
+40,Sobebra,Christian,7,Mono,10
+21,Sobebra,Other,10,Donga,<10
+50,Other,Other,6,Mono,10
+64,Other,Muslim,0,Donga,<10
+22,Sobebra,Other,0,Littoral,>10
+65,Sobebra,Buddhist,4,Donga,>10
+67,Sobebra,Other,4,Ouémé,>10
+44,Sobebra,Muslim,3,Atlantique,>10
+33,MTN,Other,3,Donga,10
+66,Other,Christian,10,Zou,<10
+63,Sobebra,Muslim,4,Mono,10
+42,Tunde Motors,Buddhist,8,Ouémé,10
+41,Sobebra,Buddhist,0,Atlantique,10
+23,Moov,Buddhist,0,Zou,<10
+56,Sobebra,Other,10,Collines,>10
+69,Tunde Motors,Muslim,3,Alibori,>10
+57,Sobebra,Other,0,Alibori,>10
+45,Sobebra,Other,0,Atlantique,10
+56,MTN,Other,9,Mono,10
+30,Moov,Buddhist,2,Couffo,<10
+43,Other,Buddhist,6,Mono,<10
+60,Tunde Motors,Other,4,Couffo,<10
+47,MTN,Christian,0,Couffo,<10
+22,Tunde Motors,Christian,8,Alibori,>10
+30,MTN,Christian,9,Mono,10
+64,Sobebra,Buddhist,6,Collines,>10
+50,Tunde Motors,Buddhist,1,Littoral,<10
+22,MTN,Buddhist,0,Couffo,>10
+65,Moov,Other,8,Littoral,>10
+50,Sobebra,Buddhist,0,Atlantique,10
+27,Sobebra,Christian,9,Zou,>10
+63,Moov,Buddhist,5,Littoral,10
+32,Other,Christian,6,Plateau,10
+36,Moov,Christian,7,Collines,<10
+23,Tunde Motors,Other,3,Littoral,<10
+68,Other,Buddhist,10,Zou,>10
+34,Moov,Christian,6,Couffo,>10
+62,Sobebra,Buddhist,4,Atacora,10
+23,MTN,Other,10,Plateau,>10
+37,MTN,Christian,8,Couffo,<10
+21,Other,Buddhist,3,Donga,<10
+66,Tunde Motors,Buddhist,5,Atlantique,10
+48,Other,Other,8,Ouémé,10
+63,Tunde Motors,Christian,3,Couffo,>10
+53,Tunde Motors,Muslim,3,Zou,<10
+38,Tunde Motors,Christian,3,Couffo,10
+55,Moov,Buddhist,1,Ouémé,10
+50,Other,Christian,8,Couffo,<10
+46,Other,Buddhist,6,Mono,>10
+39,Sobebra,Muslim,8,Couffo,10
+57,Sobebra,Muslim,3,Couffo,10
+35,Sobebra,Buddhist,3,Donga,<10
+51,Other,Muslim,3,Donga,>10
+22,Sobebra,Christian,8,Plateau,<10
+54,MTN,Other,1,Ouémé,<10
+33,Tunde Motors,Buddhist,3,Atacora,<10
+34,Other,Christian,9,Zou,<10
+62,Tunde Motors,Muslim,9,Couffo,10
+26,Tunde Motors,Muslim,0,Plateau,>10
+38,Sobebra,Muslim,0,Ouémé,>10
+53,Sobebra,Christian,8,Zou,<10
+46,Tunde Motors,Other,0,Atlantique,>10
+69,Tunde Motors,Buddhist,7,Couffo,>10
+29,Moov,Christian,7,Donga,10
+38,Tunde Motors,Other,5,Atacora,<10
+48,Sobebra,Other,7,Donga,<10
+34,Sobebra,Muslim,5,Collines,>10
+51,Tunde Motors,Other,0,Alibori,>10
+38,Moov,Buddhist,7,Mono,>10
+44,Moov,Buddhist,2,Plateau,10
+36,Sobebra,Buddhist,7,Atlantique,>10
+62,MTN,Other,5,Mono,<10
+64,Other,Other,4,Plateau,<10
+49,Sobebra,Muslim,1,Alibori,>10
+25,MTN,Christian,6,Littoral,<10
+46,Moov,Other,4,Plateau,>10
+48,MTN,Buddhist,7,Zou,<10
+51,Moov,Christian,3,Collines,<10
+32,Sobebra,Buddhist,0,Atlantique,<10
+31,Sobebra,Other,5,Couffo,<10
+50,Sobebra,Muslim,4,Atacora,<10
+29,Tunde Motors,Christian,1,Donga,10
+22,Moov,Other,8,Zou,<10
+68,Tunde Motors,Christian,5,Atlantique,10
+26,Moov,Other,1,Couffo,10
+46,Sobebra,Christian,7,Atlantique,10
+53,Other,Other,8,Collines,<10
+47,Tunde Motors,Other,4,Atacora,<10
+27,Moov,Christian,2,Collines,<10
+24,Sobebra,Muslim,2,Zou,>10
+65,Other,Other,6,Littoral,>10
+43,MTN,Other,0,Zou,>10
+24,MTN,Buddhist,5,Littoral,>10
+36,Moov,Muslim,0,Zou,<10
+47,Sobebra,Muslim,5,Couffo,10
+44,Tunde Motors,Other,0,Atlantique,10
+46,Tunde Motors,Buddhist,4,Atlantique,<10
+27,Tunde Motors,Christian,5,Atacora,>10
+47,Other,Buddhist,3,Atlantique,10
+23,Moov,Christian,0,Alibori,>10
+30,MTN,Other,5,Littoral,<10
+59,MTN,Buddhist,2,Zou,10
+45,MTN,Other,1,Littoral,10
+51,Other,Other,6,Atlantique,<10
+38,Sobebra,Muslim,5,Mono,>10
+40,Tunde Motors,Other,3,Plateau,>10
+32,Other,Christian,5,Mono,>10
+29,Other,Other,1,Atlantique,10
+41,MTN,Buddhist,1,Zou,10
+52,Other,Other,3,Collines,>10
+34,Sobebra,Muslim,5,Ouémé,>10
+68,MTN,Christian,6,Couffo,<10
+70,Tunde Motors,Other,1,Donga,>10
+22,Moov,Other,10,Zou,>10
+43,Moov,Buddhist,4,Couffo,>10
+49,Other,Other,9,Mono,10
+67,MTN,Buddhist,5,Alibori,>10
+38,Other,Other,9,Collines,>10
+45,Tunde Motors,Other,0,Mono,<10
+54,Sobebra,Other,8,Atlantique,10
+36,Sobebra,Buddhist,4,Donga,<10
+45,Moov,Christian,6,Alibori,10
+24,MTN,Christian,5,Zou,10
+57,Sobebra,Other,1,Couffo,<10
+39,Other,Muslim,4,Ouémé,<10
+46,Other,Christian,10,Ouémé,10
+54,Tunde Motors,Other,4,Atlantique,<10
+61,Tunde Motors,Buddhist,7,Mono,10
+35,Sobebra,Christian,0,Couffo,<10
+47,Tunde Motors,Muslim,1,Couffo,10
+22,Sobebra,Christian,9,Atlantique,>10
+44,MTN,Muslim,6,Atlantique,<10
+69,MTN,Christian,5,Donga,<10
+23,Other,Muslim,3,Atlantique,10
+67,MTN,Muslim,4,Donga,10
+70,Tunde Motors,Buddhist,4,Alibori,10
+43,MTN,Christian,3,Atacora,<10
+68,Tunde Motors,Christian,10,Atacora,10
+70,Moov,Buddhist,1,Couffo,<10
+22,Moov,Buddhist,8,Atacora,10
+54,MTN,Christian,2,Alibori,10
+50,Sobebra,Buddhist,2,Littoral,>10
+65,Other,Muslim,8,Alibori,>10
+68,Sobebra,Other,5,Collines,>10
+42,Sobebra,Buddhist,2,Mono,10
+67,Other,Muslim,1,Plateau,<10
+63,MTN,Buddhist,2,Atlantique,>10
+39,Moov,Christian,3,Plateau,<10
+31,Moov,Buddhist,10,Alibori,10
+20,Sobebra,Christian,4,Couffo,10
+60,Moov,Muslim,3,Collines,>10
+43,Tunde Motors,Muslim,6,Ouémé,<10
+40,Tunde Motors,Buddhist,8,Mono,>10
+67,Moov,Buddhist,7,Alibori,>10
+50,Tunde Motors,Christian,2,Ouémé,>10
+20,MTN,Buddhist,10,Alibori,10
+70,Moov,Buddhist,6,Alibori,<10
+29,MTN,Muslim,5,Zou,>10
+37,Tunde Motors,Buddhist,10,Mono,10
+67,MTN,Muslim,10,Donga,<10
+60,Tunde Motors,Buddhist,2,Collines,>10
+39,Moov,Christian,6,Atlantique,>10
+58,Sobebra,Christian,6,Littoral,>10
+66,Sobebra,Other,4,Atacora,>10
+21,MTN,Buddhist,6,Collines,10
+23,Other,Other,10,Littoral,10
+55,Tunde Motors,Muslim,3,Zou,10
+56,Other,Other,5,Ouémé,>10
+69,Sobebra,Buddhist,5,Atacora,10
+46,Sobebra,Christian,7,Alibori,<10
+22,Other,Buddhist,10,Zou,>10
+70,MTN,Christian,8,Littoral,<10
+27,Tunde Motors,Muslim,3,Alibori,<10
+28,Other,Buddhist,10,Ouémé,10
+51,Moov,Muslim,9,Atlantique,<10
+64,Tunde Motors,Muslim,4,Littoral,10
+35,Moov,Christian,0,Atacora,10
+37,MTN,Christian,10,Zou,>10
+47,Moov,Other,1,Donga,10
+51,Other,Muslim,8,Zou,<10
+23,MTN,Other,8,Donga,<10
+38,Sobebra,Christian,7,Zou,<10
+65,Tunde Motors,Christian,0,Atlantique,10
+63,Tunde Motors,Other,6,Couffo,<10
+70,Moov,Muslim,0,Mono,<10
+62,Other,Other,2,Couffo,<10
+70,Moov,Buddhist,9,Couffo,>10
+58,MTN,Christian,3,Zou,>10
+68,Tunde Motors,Buddhist,7,Atacora,>10
+40,Tunde Motors,Buddhist,4,Littoral,<10
+40,Moov,Buddhist,2,Zou,>10
+51,MTN,Christian,7,Mono,<10
+60,Moov,Other,2,Atlantique,10
+66,Tunde Motors,Other,3,Ouémé,<10
+50,Tunde Motors,Other,9,Ouémé,>10
+63,Other,Muslim,3,Zou,10
+39,MTN,Muslim,0,Zou,>10
+21,Other,Buddhist,4,Atlantique,10
+60,Tunde Motors,Muslim,9,Couffo,>10
+32,MTN,Other,2,Couffo,<10
+46,Moov,Christian,2,Mono,<10
+50,Moov,Muslim,10,Zou,<10
+33,Moov,Buddhist,6,Ouémé,10
+64,Sobebra,Buddhist,2,Atacora,10
+32,Tunde Motors,Muslim,8,Atacora,10
+46,MTN,Buddhist,8,Ouémé,>10
+27,Tunde Motors,Christian,3,Plateau,<10
+55,MTN,Muslim,8,Ouémé,>10
+70,Tunde Motors,Muslim,10,Plateau,10
+44,Tunde Motors,Other,4,Atacora,<10
+20,Moov,Buddhist,7,Alibori,<10
+60,MTN,Christian,3,Mono,<10
+51,Other,Muslim,8,Mono,>10
+50,Tunde Motors,Buddhist,6,Atacora,10
+21,Sobebra,Other,5,Atacora,<10
+70,Sobebra,Muslim,8,Collines,<10
+70,Sobebra,Other,3,Collines,>10
+38,Tunde Motors,Christian,7,Donga,>10
+67,Sobebra,Buddhist,6,Littoral,<10
+33,Sobebra,Buddhist,8,Alibori,>10
+41,Other,Buddhist,2,Collines,10
+44,MTN,Muslim,8,Atacora,<10
+28,Sobebra,Buddhist,2,Ouémé,<10
+31,Sobebra,Buddhist,7,Collines,10
+37,MTN,Other,5,Alibori,>10
+31,Tunde Motors,Christian,10,Plateau,<10
+31,Tunde Motors,Muslim,7,Littoral,<10
+62,Sobebra,Christian,9,Alibori,<10
+61,Other,Christian,8,Couffo,10
+25,Moov,Other,3,Mono,<10
+48,Moov,Muslim,6,Collines,10
+29,MTN,Christian,9,Alibori,<10
+59,Tunde Motors,Christian,10,Zou,>10
+69,Tunde Motors,Other,5,Plateau,>10
+41,Moov,Buddhist,1,Couffo,<10
+67,Sobebra,Other,2,Collines,<10
+20,MTN,Buddhist,0,Littoral,<10
+44,Moov,Christian,7,Ouémé,>10
+21,Moov,Other,5,Atlantique,<10
+68,Tunde Motors,Other,5,Couffo,>10
+57,Moov,Muslim,3,Plateau,>10
