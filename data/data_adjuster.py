@@ -15,6 +15,8 @@ class DataAdjuster:
             # Undersampling
             adjusted_data = data.iloc[solution['selected_indices']]
             lines_removed = original_size - len(adjusted_data)
+            return adjusted_data, lines_removed
+
         else:
             # Oversampling
             target_size = int(original_size * coefficient)
@@ -22,23 +24,18 @@ class DataAdjuster:
 
             for _ in range(max_iterations):
                 synthetic_samples = self._generate_synthetic_samples(data, target_size - len(adjusted_data))
-                temp_adjusted_data = pd.concat([adjusted_data, synthetic_samples], ignore_index=True)
+                adjusted_data = pd.concat([adjusted_data, synthetic_samples], ignore_index=True)
                 
-                current_fairness = self.fairness_evaluator.evaluate(temp_adjusted_data, sensitive_attributes)
+                current_fairness = self.fairness_evaluator.evaluate(adjusted_data, sensitive_attributes)
                 
-                if current_fairness >= initial_fairness:
-                    adjusted_data = temp_adjusted_data
+                if current_fairness > initial_fairness:
                     break
                 
+                # If fairness didn't improve, remove the last batch of synthetic samples
+                adjusted_data = adjusted_data.iloc[:len(adjusted_data) - len(synthetic_samples)]
+
             lines_added = len(adjusted_data) - original_size
-
-        # Final check to ensure fairness has improved or remained the same
-        final_fairness = self.fairness_evaluator.evaluate(adjusted_data, sensitive_attributes)
-        if final_fairness < initial_fairness:
-            print("Warning: Adjustment did not improve fairness. Reverting to original dataset.")
-            return data, 0
-
-        return adjusted_data, lines_removed if coefficient <= 1 else lines_added
+            return adjusted_data, lines_added
     def _generate_synthetic_samples(self, data, n_samples):
         synthetic_samples = []
         sensitive_attributes = [col for col in data.columns if col.startswith('sensitive_')]

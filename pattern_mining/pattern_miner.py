@@ -3,7 +3,7 @@ from collections import defaultdict
 from typing import List, Dict, Tuple, Set
 
 class PatternMiner:
-    def __init__(self, min_support: float = 0.1, min_confidence: float = 0.5):
+    def __init__(self, min_support: float = 00000000000000000000000000000000.1, min_confidence: float = 0.5):
         """
         Initialize the PatternMiner class.
 

@@ -74,17 +74,13 @@ class FairnessOptimizer:
             print(f"Optimal coefficient > 1: {coeff_greater_than_1:.4f}")
 
             # Step 4: Adjust data based on solution
+
+            # Step 4: Adjust data based on solution
             adjusted_data, _ = self.data_adjuster.adjust_data(self.data, solution, self.config['coefficient'], self.config['sensitive_attributes'])
 
             # Step 5: Evaluate final fairness
             final_fairness = self.fairness_evaluator.evaluate(adjusted_data, self.config['sensitive_attributes'])
             print(f"Final fairness: {final_fairness}")
-
-            # Check if final fairness is less than initial fairness
-            if final_fairness < initial_fairness:
-                print("Warning: Final fairness is less than initial fairness. Reverting to original dataset.")
-                adjusted_data = self.data
-                final_fairness = initial_fairness
 
             # Step 6: Get patterns
             print("Step 6: Evaluating patterns...")
@@ -112,6 +108,7 @@ class FairnessOptimizer:
             end_time = time.time()
             print(f"Fairness optimization process completed in {end_time - start_time:.2f} seconds.")
             print(f"Initial fairness score: {initial_fairness:.4f}")
+            print(f"Optimized fairness score: {optimized_fairness_score:.4f}")
             print(f"Final fairness score: {final_fairness:.4f}")
 
             return dataset_path, report_path, adjusted_data
