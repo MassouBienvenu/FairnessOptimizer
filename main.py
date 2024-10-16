@@ -64,7 +64,9 @@ class FairnessOptimizer:
             constraints_data = self.constraint_generator.generate_constraints(self.data, self.config)
 
             # Step 3: Solve constraints
+            solution_start_time = time.time()
             solution = self.constraint_solver.solve(constraints_data, self.config['coefficient'], initial_fairness)
+            solution_time = time.time() - solution_start_time
             optimized_fairness_score = solution['fairness_score']
             print(f"Optimized fairness score: {optimized_fairness_score}")
 
@@ -74,9 +76,9 @@ class FairnessOptimizer:
             print(f"Optimal coefficient > 1: {coeff_greater_than_1:.4f}")
 
             # Step 4: Adjust data based on solution
-
-            # Step 4: Adjust data based on solution
+            dataset_generation_start_time = time.perf_counter()
             adjusted_data, _ = self.data_adjuster.adjust_data(self.data, solution, self.config['coefficient'], self.config['sensitive_attributes'])
+            dataset_generation_time = time.perf_counter() - dataset_generation_start_time
 
             # Step 5: Evaluate final fairness
             final_fairness = self.fairness_evaluator.evaluate(adjusted_data, self.config['sensitive_attributes'])
@@ -89,13 +91,17 @@ class FairnessOptimizer:
 
             # Step 7: Generate report
             print("Step 7: Generating report...")
+            total_process_time = time.time() - start_time
             report_path = self.report_generator.generate_report(
                 initial_fairness, 
                 final_fairness, 
                 self.config, 
                 self.data,  # Original data
                 adjusted_data,  # Adjusted data
-                optimized_fairness_score
+                optimized_fairness_score,
+                solution_time,
+                dataset_generation_time,
+                total_process_time
             )
             print(f"Report generated at: {report_path}")
 

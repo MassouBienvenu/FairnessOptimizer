@@ -14,7 +14,7 @@ class ReportGenerator:
     def __init__(self):
         self.styles = getSampleStyleSheet()
 
-    def generate_report(self, initial_fairness, final_fairness, config, original_data, adjusted_data, optimized_fairness_score):
+    def generate_report(self, initial_fairness, final_fairness, config, original_data, adjusted_data, optimized_fairness_score, solution_time, dataset_generation_time, total_process_time):
         report_path = os.path.join(os.getcwd(), 'fairness_report.pdf')
         doc = SimpleDocTemplate(report_path, pagesize=letter)
         story = []
@@ -33,7 +33,6 @@ class ReportGenerator:
         data = [
             ["Metric", "Score"],
             ["Initial Fairness", f"{initial_fairness:.4f}"],
-            ["Optimized Fairness", f"{optimized_fairness_score:.4f}"],
             ["Final Fairness", f"{final_fairness:.4f}"]
         ]
         t = Table(data)
@@ -54,6 +53,35 @@ class ReportGenerator:
             ('GRID', (0, 0), (-1, -1), 1, colors.black)
         ]))
         story.append(t)
+        story.append(Spacer(1, 24))
+
+        # Add execution time information
+        story.append(Paragraph("Execution Times", self.styles['Heading1']))
+        story.append(Spacer(1, 12))
+        time_data = [
+            ["Process", "Time (seconds)"],
+            ["Solution Finding", f"{solution_time:.2f}"],
+            ["Dataset Generation", f"{dataset_generation_time:.2f}"],
+            ["Total Process", f"{total_process_time:.2f}"]
+        ]
+        time_table = Table(time_data)
+        time_table.setStyle(TableStyle([
+            ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
+            ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
+            ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+            ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+            ('FONTSIZE', (0, 0), (-1, 0), 14),
+            ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+            ('BACKGROUND', (0, 1), (-1, -1), colors.beige),
+            ('TEXTCOLOR', (0, 1), (-1, -1), colors.black),
+            ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+            ('FONTNAME', (0, 1), (-1, -1), 'Helvetica'),
+            ('FONTSIZE', (0, 1), (-1, -1), 12),
+            ('TOPPADDING', (0, 1), (-1, -1), 6),
+            ('BOTTOMPADDING', (0, 1), (-1, -1), 6),
+            ('GRID', (0, 0), (-1, -1), 1, colors.black)
+        ]))
+        story.append(time_table)
         story.append(Spacer(1, 24))
 
         story.append(Paragraph("Configuration", self.styles['Heading1']))
